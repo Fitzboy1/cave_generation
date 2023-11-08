@@ -97,7 +97,7 @@ while running:
             )
 
     # Draw the square
-    pygame.draw.rect(screen, BLUE, (x, y, SQUARE_SIZE, SQUARE_SIZE))
+    pygame.draw.rect(screen, BLUE, (x, y, SQUARE_SIZE/2, SQUARE_SIZE/2))
 
     pygame.display.flip()
 
